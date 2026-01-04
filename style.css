@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background: #f2f2f2;
+}
+nav{
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color:#4CAF50;
+}
+.hero{
+    background: #2f3e46;
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+.hero a.button:hover{
+    background: #333;
+}
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+section{
+    max-width: 1000px;
+    margin:  40px auto;
+    background: white;
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.section h2{
+   text-align: center;
+   color: #4CAF50;
+}
+.section p{
+    max-width: 750px;
+    margin: 15px auto;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+}
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card{
+    background:white;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    min-width:200px;
+    text-align: center;
+    font-weight: bold;
+    color: #222;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+footer{
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
